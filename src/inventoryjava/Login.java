@@ -14,6 +14,7 @@ public class Login extends javax.swing.JFrame {
      * Creates new form Login
      */
     public Login() {
+        setUndecorated(true);
         initComponents();
     }
 
@@ -43,6 +44,7 @@ public class Login extends javax.swing.JFrame {
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 0, 0), 5));
 
         jPanel2.setBackground(new java.awt.Color(204, 0, 0));
 
